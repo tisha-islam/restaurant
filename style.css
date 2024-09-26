@@ -151,6 +151,7 @@ margin: 0;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
 }
 .slider_text h1{
     font-size: 40px;
@@ -165,13 +166,6 @@ margin: 0;
     background-color: rgba(0, 0, 0, 0.395);
 }
 
-/* 
-.edfTh{
-    display: flex;
-    justify-content: space-between;
-    width: 300px;
-    background-color: azure;
-    margin-top: 50px} */
 
 .img_slider{
     display: flex;
@@ -198,7 +192,9 @@ margin: 0;
     align-items: center;
     background-color: azure;
     margin-top: 50px;
-    margin-left: 200px;
+   margin: 0 auto;
+    
+    /* margin-left: 200px; */
 }
 
     
@@ -232,6 +228,7 @@ margin: 0;
     width: 400px;
     background: white;
     margin-top: 100px;
+    overflow: hidden;
 }
 .image img{
     width: 400px;
@@ -260,6 +257,7 @@ margin: 0;
 }
 .image:hover img{
     transform: scale(1.1);
+   
    
 }
 /* cheif section end*/
@@ -296,7 +294,7 @@ margin: 0;
     gap: 30px;
     font-size: 30px;
     margin-top: 50px;
-    background: rgb(19, 211, 195);
+    background: rgba(211, 173, 19, 0.129);
  
 }
 .right{
@@ -307,7 +305,7 @@ margin: 0;
 .password{
     width: 250px;
     height: 40px;
-    font-size: 38px;
+    font-size: 50px;
     font-style: italic;
     border: none;
     background-color: aqua;
@@ -437,7 +435,7 @@ margin: 0;
     
 
 }
-.rgsgsj{
+.our_slider{
     background-image: url(./photo/backround\ image.jpg) ;
    background-repeat: no-repeat;
    background-size: cover;
@@ -606,3 +604,28 @@ font-size: 30px;
     color: aliceblue;
     gap: 10px;
 }
+@media only screen and (max-width:600px) {
+
+        .ul_hrder {
+                display: none;
+            } 
+        
+    
+        .header_li {
+            margin: 10px 0; 
+        }
+    
+        .hero_area h1 {
+            font-size: 32px;
+        }
+    
+        .hero_area p {
+            font-size: 16px; 
+        }
+        
+           
+    }
+    
+    
+    
+    
